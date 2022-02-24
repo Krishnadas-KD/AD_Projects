@@ -85,10 +85,10 @@ public class Login extends JFrame {
 				String passString=passwordField.getText();
 				try {
 					Class.forName("com.mysql.jdbc.Driver");
-					Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/bookshop",
+					Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/bloodbank",
 		                    "root", "");
 		            java.sql.Statement myStmt =connection.createStatement();
-		            ResultSet rs = myStmt.executeQuery("Select * from userdetails where Uname='"+user+"' and password='"+passString+"'");
+		            ResultSet rs = myStmt.executeQuery("Select * from log where username='"+user+"' and password='"+passString+"'");
 		                if(rs.next())
 		                {
 		                

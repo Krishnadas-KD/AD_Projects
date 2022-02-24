@@ -122,7 +122,6 @@ public class SellingPage extends JFrame {
 	
 	
 	public SellingPage() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 844, 558);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
