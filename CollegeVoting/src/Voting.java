@@ -61,7 +61,7 @@ public class Voting extends JFrame {
 		lblVoting.setBounds(271, 11, 124, 46);
 		contentPane.add(lblVoting);
 		
-		JLabel lblRedNo = new JLabel("Red No");
+		JLabel lblRedNo = new JLabel("Reg No");
 		lblRedNo.setFont(new Font("Tahoma", Font.BOLD, 15));
 		lblRedNo.setBounds(32, 96, 108, 19);
 		contentPane.add(lblRedNo);
